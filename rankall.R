@@ -1,4 +1,4 @@
-# Week 3 - Programming Assignment part 7
+# Week 3 - Programming Assignment rankall
 rankall <- function(outcome, num = "best") {
   # Ranking Hospitals in all States
   #
