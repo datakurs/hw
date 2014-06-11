@@ -15,7 +15,7 @@ best <- function(state, outcome) {
   load <- function() {
     # Read outcome data
     data <- read.csv(
-      file = "data/outcome-of-care-measures.csv",
+      file = "outcome-of-care-measures.csv",
       colClasses = "character")
     # Make more readable column names
     pretty.colnames <- c("heart_attack", "heart_failure", "pneumonia")
