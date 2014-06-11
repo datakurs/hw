@@ -1,4 +1,4 @@
-# Week 3, Programming Assignment part 6
+# Week 3, Programming Assignment rankhospital
 rankhospital <- function(state, outcome, num) {
   # Ranking hospitals by outcome in a state
   #
@@ -12,12 +12,10 @@ rankhospital <- function(state, outcome, num) {
   # (Hospital.name) with the lowest 30-day mortality for specified state and
   # outcome.
 
-  # Set Working Directory
-  setwd('/home/deck/Dropbox/coursera/DataAnalysis/pa3/')
   load <- function() {
     # Read outcome data
     data <- read.csv(
-      file = "data/outcome-of-care-measures.csv",
+      file = "outcome-of-care-measures.csv",
       colClasses = "character")
     # Make more readable column names
     pretty.colnames <- c("heart_attack", "heart_failure", "pneumonia")
